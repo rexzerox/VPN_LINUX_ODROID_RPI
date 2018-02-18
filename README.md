@@ -26,7 +26,8 @@ Here is the summary about at the configuration suggested in the script:
 NB: If you want to have better performance because you use a lowpowerful device as RASPBERRY PI / ODROID. You can remove the auth and cipher lines in the aim to use the default algorythm of openvpn which is less securised but it consumes less CPU.
 
 ## HOW CAN I START ? ##
-Clone the repository : `git clone https://github.com/kevincaradant/VPN_LINUX_ODROID_RPI.git`   
+Clone the repository : `git clone https://github.com/rexzerox/vpn.git`
+Go To Folder: cd vpn
 Launch with root rights , the script shell : scriptVPN.sh     
 => `sudo bash ./scriptVPN.sh`
 
