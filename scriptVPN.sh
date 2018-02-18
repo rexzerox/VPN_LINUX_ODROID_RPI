@@ -28,6 +28,7 @@ install_prog_required(){
 	apt-get install -y git
 	apt-get install -y openssl
 	apt-get install -y openvpn
+	apt-get install -y unzip
 
 	#install openvpn2.3.14 because we new features with the buffer
 	if [ ! -f ./openvpn-2.3.14.zip ]; then
